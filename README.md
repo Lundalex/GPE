@@ -6,4 +6,3 @@ INCLUDES:
 - Extension Programs (OpenWorldDemo, Flappybird)
 
 - Documentation
-d
