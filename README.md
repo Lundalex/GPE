@@ -1,8 +1,8 @@
 # GeneralPurposeEngine-3D
 INCLUDES:
 
-- Engine src files (latest)
+- Documentation
 
 - Extension Programs (OpenWorldDemo, Flappybird)
 
-- Documentation
+- Engine src files (latest)
