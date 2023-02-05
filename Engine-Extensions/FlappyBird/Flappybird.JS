@@ -6,25 +6,25 @@ function OnCollision(Object1,Object2){
 
     // Default setup
     if(RegObjects[Object1].DeleteOTHERonCollision == true){
-        if(RegObjects[Object2].Tag == "PlayerObject"){alert("u ded")}
+        if(RegObjects[Object2].Tag == "PlayerObject"){alert("Game Over")}
         DeleteObject(Object2)
         RunProgram = false
         return 1
     }
     else if(RegObjects[Object2].DeleteOTHERonCollision == true){
-        if(RegObjects[Object1].Tag == "PlayerObject"){alert("u ded")}
+        if(RegObjects[Object1].Tag == "PlayerObject"){alert("Game Over")}
         DeleteObject(Object1)
         RunProgram = false
         return 1
     }
     else if(RegObjects[Object1].DeleteOnCollision == true){
-        if(RegObjects[Object1].Tag == "PlayerObject"){alert("u ded")}
+        if(RegObjects[Object1].Tag == "PlayerObject"){alert("Game Over")}
         DeleteObject(Object1)
         RunProgram = false
         return 1
     }
     else if(RegObjects[Object2].DeleteOnCollision == true){
-        if(RegObjects[Object2].Tag == "PlayerObject"){alert("u ded")}
+        if(RegObjects[Object2].Tag == "PlayerObject"){alert("Game Over")}
         DeleteObject(Object2)
         RunProgram = false
         return 1

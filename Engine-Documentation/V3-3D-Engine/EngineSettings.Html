@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>3D Engine</title>
+</head>
+<body style="background-color: #363636;">
+
+    <!-- Engine Canvas -->
+    <canvas id="Canvas" width="1200px" height="600px" style="border:10px solid #585858; border-radius: 5px"
+        onclick="OnClickFunction(event)"
+        onmousedown="MouseDownFunction(event)"
+        onmouseup="MouseUpFunction(event)"
+        onwheel="ScrollFunction(event)">
+    </canvas>
+
+    <br>
+
+    <button onclick="LoadFiles(3, Textdata)" style="height: 50px; width: 120px;">Render Objects</button>
+
+    <input type="file" name="readfile" id="readfile" />
+
+</body>
+
+<script>
+
+// Engine Settings
+
+let CanvasWidth = 1200
+
+let CanvasHeigth = 600
+
+let ProgramHertz = 60
+
+let ProgramIncrementHertz = 1
+
+let ChosenRegObjectType = "Physics"
+
+let ShowHitboxes = false
+
+let ShowAnimationPathing = false
+
+let RenderShading = true
+
+let Elasticity = 0.5
+    
+let TimeFriction = 1
+
+let FocalLength = 700
+
+let CameraOffsetX = 0
+let CameraOffsetY = 0
+let CameraOffsetZ = 500
+    
+</script>
+
+<!-- Engine files -->
+<script src="Hidden-3D Engine/Engine-Setup.Js"></script>
+
+<script src="Hidden-3D Engine/Other.Js"></script>
+<script src="Hidden-3D Engine/ObjImport.Js"></script>
+
+<script src="Hidden-3D Engine/Pipe-Animation.Js"></script>
+<script src="Hidden-3D Engine/Pipe-Physics.Js"></script>
+<script src="Hidden-3D Engine/Pipe-Project.Js"></script>
+<script src="Hidden-3D Engine/Pipe-Draw.Js"></script>
+
+<!-- Dev file -->
+<script src="Dev.Js"></script>
+
+</html>
