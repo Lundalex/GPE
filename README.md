@@ -15,11 +15,21 @@ HTML - You may use the JS GP-Engine folder
 VUE - You may use the premade GP-Engine component
 (The Component is a compilation of all JS functions from GP-Engine folder)
 
+### Simulation Events:
+
 
 ### Adding Objects:
 
 
 ### Object Properties:
+
+#### Physics:
+
+#### Animation:
+
+#### Rendering:
+
+#### Position:
 
 
 ### Technicalities & Engine Settings:
