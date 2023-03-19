@@ -5,14 +5,21 @@
 
 - Extension Programs (OpenWorldDemo, Flappybird)
 
-- Engine src files (latest) (↓ Usage Documentation ↓)
+- Engine src files (Latest) (↓ Usage Documentation ↓)
 
 ## Use of Engine:
 
-### Section 1
+HTML - You may use the JS GP-Engine folder
+(CURRENTLY OUTDATED)
+
+VUE - You may use the premade GP-Engine component
+(The Component is a compilation of all JS functions from GP-Engine folder)
 
 
-### Section 2
+### Adding Objects:
 
 
-### Section 3
+### Object Properties:
+
+
+### Technicalities & Engine Settings:
