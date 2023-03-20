@@ -48,6 +48,7 @@ These **functions** will be triggered by the engine during program ***run time**
 - **OnCollision**(Object1, Object2)
 - **OnObjFileLoad**(CreateIndex)
 
+Access these in the "Dev file" (HTML) or at the bottom of the component (VUE).
 
 ### Object Properties:
 
@@ -73,7 +74,7 @@ These **functions** will be triggered by the engine during program ***run time**
 
 #### Rendering:
 
-- **FillColor** - Object color (does not affect surface edges)
+- **FillColor** - Object color (does not affect surface edges) ("#xxyyzz")
 - **Opacity** - 0-1 (0 -> Full transparency, 1-> No transparency)
 
 #### Position:
@@ -111,10 +112,10 @@ These **functions** will be triggered by the engine during program ***run time**
 - **ShowAnimationPathing**
 - **RenderShading**
 
-- **Elasticity**
-- **TimeFriction**
+- **Elasticity** - (0-1)
+- **TimeFriction** - Multiplier to lower all velocities each frame
 
 - **FocalLength**
-- **CameraOffset(X/Y/Z)**
+- **CameraOffset(X/Y/Z)** - Camera position in world space
 
-- **Animationspeed** - Animation frame data increase per frame (recommended value: **1**)
+- **Animationspeed** - Animation frame data increase per frame (recommended value: ***1***)
