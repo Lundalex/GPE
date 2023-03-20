@@ -50,6 +50,18 @@ These **functions** will be triggered by the engine during program ***run time**
 
 Access these in the "Dev file" (HTML) or at the bottom of the component (VUE).
 
+
+### Function Tools:
+
+These **functions** can be used to manipulate ***objects***.
+
+- **RotateObject**(***ObjectIndex***)
+- **ApplyPerspective**(***X, Y, Z, DeltaX, DeltaY, DeltaZ***) - Convert a coordninate from ***world space*** to ***camera world space***
+(this is automacially done for all meshes/hitboxes/animation pathings)
+
+- **ResetCanvas()**
+
+
 ### Object Properties:
 
 - All objects will be added to RegObjects[] ([object1, object2, object3...])
