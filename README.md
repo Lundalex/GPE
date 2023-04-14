@@ -13,7 +13,7 @@ HTML - You may use the JS GP-Engine folder
 (CURRENTLY OUTDATED)
 
 VUE - You may use the premade GP-Engine component
-(The Component is a compilation of all JS functions from GP-Engine folder)
+(The Component is a compilation of all JS functions from the GP-Engine folder)
 
 
 ### Adding Objects:
