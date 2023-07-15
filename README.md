@@ -1,4 +1,4 @@
-# General purpose engine-3D
+# General Purpose (3D-) Engine
 ## Includes:
 
 - Documentation (Discontinued versions)
